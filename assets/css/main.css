@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 /*	
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
@@ -96,9 +97,6 @@ body {
 	line-height: 1;
 }
 
-
-
-
 ol, ul {
 	list-style: none;
 }
@@ -194,8 +192,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a0a0a1;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 15pt;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		font-family: "Dancing Script";
+		font-size: 18pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
@@ -215,13 +214,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #34a58e;
+		color: #d45fc5;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			color: #eca5e3 !important;
 		}
 
 	strong, b {
@@ -243,7 +242,7 @@ input, select, textarea {
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -393,7 +392,7 @@ input, select, textarea {
 		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: none;
 		white-space: nowrap;
 	}
 
@@ -403,7 +402,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #34a58e;
-			color: #34a58e !important;
+			color: #75b8aa !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -979,7 +978,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon {
-				color: #505051;
+				color: #ffffff;
 			}
 
 				ul.icons li .icon:before {
@@ -1493,7 +1492,7 @@ input, select, textarea {
 		#header h1 {
 			color: #a0a0a1;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 2em;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
@@ -1535,7 +1534,7 @@ input, select, textarea {
 						display: inline-block;
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
-						text-transform: uppercase;
+						text-transform: none;
 					}
 
 						#header nav > ul > li a.icon:before {
